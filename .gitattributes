@@ -1,0 +1,1 @@
+week2/tasks[[:space:]]given/Data[[:space:]]set/*.csv filter=lfs diff=lfs merge=lfs -text
