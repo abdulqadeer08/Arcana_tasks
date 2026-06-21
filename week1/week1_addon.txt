@@ -1,0 +1,195 @@
+
+SECURE CODING & AI-ASSISTED DEVELOPMENT (WEEK 1 REVISION)
+
+=====================================================
+
+1. CODE REVIEW MINDSET
+
+---
+
+Meaning:
+Always check AI-generated code before using it in real projects.
+
+Real Example:
+AI generates login or calculator code → developer reviews it before using.
+
+Bad Practice:
+
+* Copy-paste AI code directly into production
+
+Good Practice:
+
+* Check logic, bugs, security issues, and edge cases
+
+Memory Trick:
+AI writes code, human verifies it.
+
+=====================================================
+
+2. INPUT VALIDATION
+
+---
+
+Meaning:
+Check if user input is correct before using it.
+
+Real Example:
+Age must be a number between 1 and 120.
+
+Bad Practice:
+
+* Accept any input without checking
+
+Good Practice:
+
+* Check type (number/string)
+* Check range
+* Check format
+
+Memory Trick:
+Validation = CHECK input
+
+=====================================================
+
+3. INPUT SANITIZATION
+
+---
+
+Meaning:
+Clean user input before storing or using it.
+
+Real Example:
+"   Abdul Qadeer   " → "Abdul Qadeer"
+
+Bad Practice:
+
+* Store raw messy input
+
+Good Practice:
+
+* Remove spaces (strip)
+* Remove unsafe characters
+* Clean HTML/JS input
+
+Memory Trick:
+Sanitization = CLEAN input
+
+=====================================================
+
+4. SECRETS MANAGEMENT
+
+---
+
+Meaning:
+Never write passwords, API keys, or credentials in code.
+
+Real Example:
+Store API_KEY in .env file instead of Python file.
+
+Bad Practice:
+API_KEY = "123456"
+
+Good Practice:
+
+* Use .env file
+* Use environment variables (os.getenv)
+
+Memory Trick:
+Secrets stay outside code
+
+=====================================================
+
+5. SAFE ERROR HANDLING
+
+---
+
+Meaning:
+Handle errors properly so program does not crash.
+
+Real Example:
+Division by zero or invalid input
+
+Bad Practice:
+try:
+...
+except:
+pass   (HIDES ERROR - BAD)
+
+Good Practice:
+try:
+...
+except ValueError:
+print("Invalid input")
+except ZeroDivisionError:
+print("Cannot divide by zero")
+import logging (log errors)
+
+Memory Trick:
+Handle errors, don't hide them
+
+=====================================================
+
+6. DEPENDENCY AWARENESS
+
+---
+
+Meaning:
+Check external libraries before installing.
+
+Real Example:
+pip install package → verify if it is safe and maintained
+
+Bad Practice:
+
+* Install random AI-suggested libraries
+
+Good Practice:
+
+* Check documentation
+* Check GitHub
+* Check security issues
+
+Memory Trick:
+Trust but VERIFY libraries
+
+=====================================================
+
+## REAL SOFTWARE HOUSE FLOW
+
+User Input
+↓
+Validation (check input)
+↓
+Sanitization (clean input)
+↓
+Use .env for secrets
+↓
+Run program
+↓
+Error occurs?
+↓
+Safe error handling
+↓
+Log error + show user message
+↓
+Code review (AI code checked)
+↓
+Dependency check
+↓
+Deploy to production
+
+=====================================================
+
+## 6 GOLDEN RULES
+
+1. Never trust AI-generated code blindly
+2. Always validate user input
+3. Always sanitize input
+4. Never hardcode secrets
+5. Never hide errors (no except: pass)
+6. Always verify external libraries
+
+=====================================================
+
+END OF WEEK 1 NOTES
+
