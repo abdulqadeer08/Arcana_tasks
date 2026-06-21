@@ -24,6 +24,11 @@ Good Practice:
 Memory Trick:
 AI writes code, human verifies it.
 
+
+
+
+
+
 =====================================================
 
 2. INPUT VALIDATION
