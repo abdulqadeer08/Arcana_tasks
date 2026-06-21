@@ -25,6 +25,8 @@ while user_input != '4':
         print('LIST OF TO DO ITEMS:')
         for item in data:
             print(item)
+        if not data:
+            print('NO ITEMS in PENDING')
     elif user_input == '4':
         print('GOOD BYE!')
     else:
