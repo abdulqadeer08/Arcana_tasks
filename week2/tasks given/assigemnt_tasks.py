@@ -35,3 +35,66 @@
 # print(f"TOTAL PERCTAGEG THOSE LIE IN 25 TO 35 :{per}%")
 
 
+#-----------------------------------------------------------------------------------------------------------------------------------
+#                        Task 3.1: Given daily stock prices for a company in a NumPy array:
+#-----------------------------------------------------------------------------------------------------------------------------------
+
+
+# import numpy as np
+# #  prices = np.array([120, 121, 119, 122, 118, 117, 115, 116, 118, 120])
+# prices = np.array([120,121,119,122,118,117,115,116,118,120])
+
+# #  Extract prices for days 2–6.
+# days_2_to_6 = prices[1:6]
+
+# #  Get all prices greater than 118.
+# greater_than_118 = prices[prices > 118 ]
+
+# #DISPALY
+# print ("PRICES FOR DAYS 2-6 ARE : ", days_2_to_6)
+# print("PRICES GREATER THAN 118 ARE : ",greater_than_118)
+
+
+
+
+
+#------------------------------------------------------------------------------------------------------------------------
+#     Task 4.1:
+#     Create a 3×3 matrix of employee salaries in thousands.Add a bonus vector [5, 10, 15] to each row using broadcasting.
+#------------------------------------------------------------------------------------------------------------------------
+
+# import numpy as np
+# salaries = np.random.random_integers(10000,200000, size=(3,3))
+# # print (salaries)
+# bonus_vector = np.array([5,10,15])
+
+# add = salaries + bonus_vector
+# print ("FINAL RESULT IS :",add)
+
+
+
+
+
+# **Task 5.1:** You have monthly sales for 3 years in a 1D array (length 36).
+
+
+# .
+
+
+
+import numpy as np 
+monthly_sales = np.random.randint(100, 500, size = 36)
+# print ("ORIGINAL 1D ARRAY",monthly_sales)
+
+#             *) Reshape into a 3×12 matrix (3 years, 12 months)
+reshape_1D = monthly_sales.reshape(3, 12)
+
+
+#             *) Find total sales per year
+total_sales_year = reshape_1D.sum(axis=1)
+# print (total_sales_year)
+
+#             *) Find the month with the highest average sales across years.
+high_avg = reshape_1D.mean(axis = 0)
+best_month = np.argmax(high_avg)
+print (best_month)
