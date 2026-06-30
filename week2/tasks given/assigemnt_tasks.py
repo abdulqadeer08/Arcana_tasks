@@ -74,14 +74,9 @@
 
 
 
-
-# **Task 5.1:** You have monthly sales for 3 years in a 1D array (length 36).
-
-
-# .
-
-
-
+#--------------------------------------------------------------------------------------------------------------------
+#                           Task 5.1: You have monthly sales for 3 years in a 1D array (length 36).
+#--------------------------------------------------------------------------------------------------------------------
 import numpy as np 
 monthly_sales = np.random.randint(100, 500, size = 36)
 # print ("ORIGINAL 1D ARRAY",monthly_sales)
@@ -95,6 +90,6 @@ total_sales_year = reshape_1D.sum(axis=1)
 # print (total_sales_year)
 
 #             *) Find the month with the highest average sales across years.
-high_avg = reshape_1D.mean(axis = 0)
-best_month = np.argmax(high_avg)
+avg = reshape_1D.mean(axis = 0)
+best_month = np.argmax(avg)
 print (best_month)
