@@ -1,0 +1,10 @@
+joblib>=1.6.0
+matplotlib>=3.11.0
+numpy>=2.5.0
+pandas>=3.0.3
+scikit-learn>=1.9.1
+seaborn>=0.13.2
+xgboost>=3.4.1
+
+# testing
+pytest>=9.1.1

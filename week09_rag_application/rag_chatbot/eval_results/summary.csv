@@ -1,0 +1,6 @@
+,score
+faithfulness (groundedness),1.0
+answer relevance,0.5019172387795113
+answer correctness (key facts),0.8541666666666666
+in-scope answered (no false refusal),0.9375
+out-of-scope refused,1.0

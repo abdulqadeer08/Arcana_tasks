@@ -1,1 +1,1 @@
-week2/tasks[[:space:]]given/Data[[:space:]]set/*.csv filter=lfs diff=lfs merge=lfs -text
+week02_python_for_data_and_statistics/assignments/data/*.csv filter=lfs diff=lfs merge=lfs -text

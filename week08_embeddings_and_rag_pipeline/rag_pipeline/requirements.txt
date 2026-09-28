@@ -1,0 +1,8 @@
+numpy
+matplotlib
+scikit-learn
+faiss-cpu
+sentence-transformers
+chromadb
+groq
+pypdf
