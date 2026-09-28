@@ -7,13 +7,13 @@ one week of the [training roadmap](roadmap/Arcana_Info_-_Data_Science_AI_Interns
 
 | Week | Topic | Deliverable |
 |------|-------|-------------|
-| [01](week01_python_fundamentals/) | Python Fundamentals + Secure Coding add-on | [To-Do List](week01_python_fundamentals/todo_list/), [AI code audit](week01_python_fundamentals/secure_coding_addon/) |
+| [01](week01_python_fundamentals/) | Python Fundamentals + Secure Coding add-on | [To-Do List](week01_python_fundamentals/todo_list/), [Code audit](week01_python_fundamentals/secure_coding_addon/) |
 | [02](week02_python_for_data_and_statistics/) | Python for Data & Intro Statistics | [EDA notebooks](week02_python_for_data_and_statistics/assignments/notebooks/) |
 | [03](week03_sql_essentials/) | SQL Essentials | Notes |
 | [04](week04_ml_supervised_learning/) | ML Concepts & Supervised Learning | [Housing price regression model](week04_ml_supervised_learning/housing_model/) |
 | [05](week05_tree_models_and_evaluation/) | Tree Models, Ensembles & Evaluation | [Breast cancer classification challenge](week05_tree_models_and_evaluation/classification_model/) |
 | [06](week06_neural_networks/) | Neural Networks & Deep Learning Basics | [Neural network from scratch](week06_neural_networks/neural_network/) |
-| [07](week07_llms_and_generative_ai/) | LLMs & Generative AI Fundamentals | Notes |
+| [07](week07_llm/) | LLMs & Generative AI Fundamentals | Notes |
 | [08](week08_embeddings_and_rag_pipeline/) | Embeddings, Vector Search & RAG Pipeline | [RAG pipeline](week08_embeddings_and_rag_pipeline/rag_pipeline/) |
 | [09](week09_rag_application/) | End-to-End RAG Application | [RAG chatbot (Streamlit)](week09_rag_application/rag_chatbot/) |
 
